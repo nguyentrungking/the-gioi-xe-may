@@ -8,23 +8,21 @@
 
 Mọi người chú ý vị trí file để nhúng đường dẫn (path) cho đúng. Khi nhúng JS, **luôn nhúng `script.js` lên trước** các file JS riêng của trang.
 
-- `index.html` (Trang chủ - Nằm ở thư mục gốc)
 - `assets/`
   - `css/`
     - `style.css` (Style chung toàn website - Mọi trang đều phải nhúng)
-    - `index.css`, `danh-sach-phu-tung.css`... (Style riêng từng trang)
+    - `trang-chu.css`, `danh-sach-phu-tung.css`... (Style riêng từng trang)
   - `images/` (Hình ảnh sản phẩm xe và phụ tùng)
   - `js/`
     - `script.js` (Chứa các hàm/biến dùng chung toàn website)
-    - `index.js`, `danh-sach-phu-tung.js`...
+    - `trang-chu.js`, `danh-sach-phu-tung.js`...
 - `components/` (Chứa các file JS render Header, Footer, Nav dùng chung)
-- `pages/` (Chứa các trang con)
+- `pages/` (Chứa toàn bộ các trang giao diện)
+  - `trang-chu.html`
   - `danh-sach-phu-tung.html`
   - `danh-sach-xe-may.html`
   - `chi-tiet-xe-may.html`
   - `hoa-don.html`
-
----
 
 ## 🚀 Quy định Thêm/Xóa file
 
